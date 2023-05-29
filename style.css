@@ -1,0 +1,252 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: sans-serif;
+    background-color: pink;
+}
+
+.row {
+    display: flex;
+    border: 3px solid black;
+    margin: 20px;
+}
+#button {
+        background-color: rgb(94, 255, 31);
+        border: 2px solid black;
+        padding: 3px 6px;
+        margin: 40px;
+        margin-top: 5px;
+        margin: 40px;
+}
+
+.col {
+        margin: 10px;
+        padding: 10px;
+        background-color: pink;
+        flex: 1
+}
+
+.nav a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+li {
+    text-align: -webkit-match-parent;
+}
+
+.nav {
+    background-color: orange;
+    color: #ffffff;
+    height: 80px;
+    width: 1600px;
+    /* for styling purposes */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+
+.nav-title {
+    margin-left: 20px;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    background-color: red;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+}
+.col, .col1 {
+    margin: 10px;
+    padding: 10px;
+    background-color: yellowgreen;
+    flex:1;
+}
+.col1{
+    flex:3;
+}
+.col{
+    flex: 2;
+
+}
+.top {
+    background-color: blue;
+    flex: display;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+.seleccion {
+    width: 600px;
+    margin-right: 20px;
+    background-color: silver;
+    margin: 0px auto;
+    padding: 50px;
+    border: 1px solid black;
+}
+
+.button {
+    height: 150px;
+    width: 500px;
+    margin-top: 20px;
+    background-color: rgb(192, 74, 74);
+    padding: 50px;
+    display: inline-block;
+}
+
+.midlle {
+    height: 150px;
+    width: 500px;
+    margin-top: 20px;
+    background-color: rgb(179, 179, 65);
+    padding: 50px;
+    display: inline-block;
+
+}
+
+.top {
+    height: 150px;
+    width: 500px;
+    margin-top: 20px;
+    background-color: blueviolet;
+    display: inline-block;
+    padding: 50px;
+}
+
+img {
+    height: 90px;
+    margin-left: 10px;
+
+}
+
+#prioridad {
+    display: inline-block;
+    margin-left: 50px;
+
+}
+.blanco {
+    background-color: white;
+    width: 300px;
+    display: inline-block;
+}
+
+#border {
+    border: 2px solid black;
+    display: block;
+    background-color: white;
+    height: 300px;
+    width: 500px;
+    margin: 30px 30px;
+}
+
+.red {
+    background-color: red;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#bandera {
+    border: 3px solid black;
+    display: inline-block;
+    height: 210px;
+    margin: 30px 30px;
+}
+
+
+.azul {
+    background-color: blue;
+    padding: 5px;
+    width: 100px;
+    height: 200px;
+    display: inline-block;
+}
+
+.white {
+    background-color: white;
+    padding: 5px;
+    width: 100px;
+    height: 200px;
+    display: inline-block;
+}
+
+.rojo {
+    background-color: red;
+    padding: 5px;
+    width: 100px;
+    height: 200px;
+    display: inline-block;
+}
+
+.container {
+    width: 950px;
+    height: 600px;
+    background-color: silver;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.chile {
+    height: 90%;
+    width: 90%;
+    float: left;
+    margin: 10px;
+    background-color: white;
+    border: 2px solid #0000;
+}
+
+.blue {
+    width: 30%;
+    height: 50%;
+    background-color: #0039A6;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.vermelho {
+    width: 100%;
+    height: 50%;
+    background-color: #D52B1E;
+    display: inline-block;
+}
+
+#estrella {
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
+    background-color: #FFFFFF;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
